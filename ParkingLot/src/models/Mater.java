@@ -1,6 +1,8 @@
 package models;
 
-public class Mater {
+import java.util.Date;
+
+public class Mater extends Base{
 	private Date startTime;
 	private Date endTime;
 	private int unitConsumed;
