@@ -15,6 +15,13 @@ public class TicketController {
 				generateTicketRequestDto.getVehicleType(),
 				generateTicketRequestDto.getGateId()
 				);
+
+				GenerateTicketResponseDto generateTicketResponseDto
+                    = new GenerateTicketResponseDto();
+            generateTicketResponseDto.setTicket(ticket);
+            generateTicketResponseDto.setStatus(ResponseStatus.SUCCESS);
+
+				return generateTicketResponseDto;
 	}
 
 }

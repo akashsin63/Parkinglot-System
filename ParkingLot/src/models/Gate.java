@@ -32,6 +32,10 @@ public class Gate {
 	public void setOperator(Operator operator) {
 		this.operator = operator;
 	}
+	public Long getId() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'getId'");
+	}
 	
 
 }
